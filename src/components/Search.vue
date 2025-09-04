@@ -57,7 +57,7 @@
       <ul class="work-list">
         <li v-for="(work, index) in results" :key="index" class="work-item">
           <a
-            :href="work.URL"
+            :href="work.url"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -177,3 +177,4 @@ const deleteWork = async (id) => {
   }
 };
 </script>
+
